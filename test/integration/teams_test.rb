@@ -79,7 +79,5 @@ class TeamsTest < ActionDispatch::IntegrationTest
     first_team = json.first
 
     assert_not_equal [], first_team["drivers"]
-
-    ap first_team
   end
 end
